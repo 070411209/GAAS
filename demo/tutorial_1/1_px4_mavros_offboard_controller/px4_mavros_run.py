@@ -232,7 +232,7 @@ class Px4Controller:
             self.state = "LAND"
             self.cur_target_pose = self.construct_target(self.local_pose.pose.position.x,
                                                          self.local_pose.pose.position.y,
-                                                         0.1,
+                                                         0.0,
                                                          self.current_heading)
 
         if msg.data == "HOVER":

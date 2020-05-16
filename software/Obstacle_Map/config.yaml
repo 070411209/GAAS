@@ -51,6 +51,13 @@ Lambda: 0
 SigmaColor: 10
 
 # common params for both methods:
+# SADWindowSize: 9 
+# MinDisparity: 3 
+# NumDisparities: 80
+# PreFilterCap: 7
+# UniquenessRatio: 10
+# SpeckleWindowSize: 7
+
 MinDisparity: 7
 NumDisparities: 32
 PreFilterCap: 63
